@@ -13,12 +13,12 @@ A hash table is a data structure used to implement an associative array, a struc
 8. To remove a key from hash table, we will first calculate its index and delete it if key matches, else probe through elements until we find key or an empty space where not a single data has been entered (means data does not exist in the hash table).
 ```
 ## Complexity
-Converting string into key number: logn. <\br><\br>
-Initializing array: n. <\br><\br>
-Get prime: n^2. <\br><\br>
-Inserting: logn. <\br><\br>
-Display: n. <\br><\br>
-Delete: logn. <\br><\br>
+Converting string into key number: logn. <br/><br/>
+Initializing array: n. <br/><br/>
+Get prime: n^2. <br/><br/>
+Inserting: logn. <br/><br/>
+Display: n. <br/><br/>
+Delete: logn. <br/><br/>
 
 ## Example
 ![Result1](https://github.com/shazaalqays/Hashing-Algorithm-in-C/blob/main/example.png)
